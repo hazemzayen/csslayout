@@ -1,0 +1,75 @@
+.section1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.introduction{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+}
+.introduction p{
+    line-height: 1.6;
+}
+.section1 h1{
+    color:  #00b39b;
+    font-weight: 100;
+}
+.section2{
+    display: grid;
+    grid-template-columns: repeat(3.1fr);
+    grid-gap: 20px;
+}
+.patients{
+    background-color: #00b39b;
+}
+.doctors{
+    background-color: blue;
+}
+.clinics{
+    background-color: blueviolet;
+}
+.box{
+    height: 300px;
+    border-radius: 7px;
+    padding: 20px;
+    color: white;
+
+}
+.box p{
+    font-size: 20px;
+}
+select{
+    border: none;
+    background-color: transparent;
+
+}
+.section3{
+    background-color: grey;
+    height: 600px;
+    margin: 50px;
+    position: relative;
+
+}
+.platform{
+    display: grid;
+    grid-template-columns: repeat(2.1fr);
+    grid: gap 20px;
+    width: 70%;
+    margin: auto;
+
+
+}
+.logo{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+@media (max-width:500px) {
+    .introduction{
+        display: grid;
+        grid-template-columns: 100%;
+        
+}
+
